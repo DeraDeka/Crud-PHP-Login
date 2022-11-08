@@ -23,6 +23,6 @@ if(isset($user)==0){ header('Location: index.php'); }
     if(isset($_POST["logout"]))
     {
         session_destroy();
-        header('Location: crudform.php'); 
+        header('Location: index.php'); 
     }
 ?>
