@@ -1,7 +1,7 @@
 <?php
 session_start();
 $user = $_SESSION['username'];
-// Send user back to the shadow realm (index.php) if not logged on
+// Send user back to index.php if not logged on
 if(isset($user)==0){ header('Location: index.php'); }
 ?>
 
